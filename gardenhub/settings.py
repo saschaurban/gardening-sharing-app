@@ -82,6 +82,8 @@ DATABASES = {
             'username': 'saschaurban',
             'password': 'M2VPtQfwgdHWYPKJ',
             'authMechanism': 'SCRAM-SHA-1',
+            'ssl': 'true',
+            'tlsAllowInvalidCertificates': 'true',
         },
     },
 }
